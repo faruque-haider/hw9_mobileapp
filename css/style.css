@@ -1,0 +1,384 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+/* font-family: 'Oswald', sans-serif; */
+/* Global CSS */
+.global-heading{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.global-p{
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 14px;
+}
+.global-btn{
+    background: transparent;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* main Header part */
+#header{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-hero.png) no-repeat center;
+    background-size: cover;
+}
+.main-header{
+    width: 100%;
+    float: left;
+    padding: 30px;
+    position: sticky;
+    top: 0px;
+}
+.logo-part{
+    width: 30%;
+    float: left;
+}
+.menu-part{
+    width: 70%;
+    float: left;
+}
+.menu-part{
+    text-align: right;
+}
+.menu-part nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.menu-part nav ul li a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    margin: 0 40px;
+    color: white;
+}
+/* hero part */
+.hero{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 200px;
+}
+.hero h1{
+    margin: 0 21%;
+    font-size: 50px;
+}
+.hero p{
+    color: white;
+    margin: 25px auto;
+}
+.hero-btn{
+    margin-bottom: 30px;
+}
+.white-btn{
+    background: white;
+    color: #303030;
+    font-weight: 600;
+}
+.hero-btn a button{
+    margin: 0 10px;
+}
+.hero img{
+    margin: 30px 0 -90px 0;
+}
+/* feature part */
+#feature{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 300px 0 150px;
+    background: url(../img/bg-feature.png) no-repeat;
+    background-size: cover;
+    margin-top: -165px;
+}
+.feature{
+    width: 100%;
+    float: left;
+}
+.feature-img{
+    width: 43%;
+    float: left;
+}
+.feature-img img{
+    
+}
+.feature-des1{
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.feature-des2{
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+.feature-box{
+    width: 55%;
+    float: left;
+    
+    padding: 20px;
+    box-shadow: 0px 0px 10px #35b8f6;
+    border-radius: 20px 0;
+}
+.box1{
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.box2{
+    position: absolute;
+    bottom: -454px;
+}
+.box3{
+    position: absolute;
+    top: 88px;
+    right: -168px;
+}
+.box4{
+    position: absolute;
+    bottom: -550px;
+    right: -100px;    
+}
+/* about section */
+#about{
+    width: 100%;
+}
+.about{
+    width: 100%;
+}
+.about-description{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 8% 5%;
+}
+.about-description h1{
+    color: #303030;
+    margin: 30px 0;
+}
+.about-description p{
+    font-size: 14px;
+}
+.about-description button{
+    margin-top: 30px;
+    background-color: #35b8f6;
+}
+.about-tab{
+    width: 60%;
+    float: left;
+    padding: 30px 160px;   
+}
+.tab-box{
+    margin: 30px 0;
+    box-shadow: 3px 5px 10px #a7a4a4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.tab-box p{
+    position: relative;
+    left: 50px;
+    bottom: 23px;
+    padding-right: 90px;
+}
+.tab-box h2{
+    position: relative;
+    left: 50px;
+    top: -30px;
+}
+.tab-box:hover{
+    transition-delay: 100ms;
+    background: #35b8f6;
+    color: white;
+}
+
+/* About Add part */
+#abt-add{
+    width: 100%;
+    float: left;
+    background: #fafafc;
+}
+.abt-add{
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+.add-img{
+    width: 50%;
+    float: left;
+}
+
+.add-des{
+    width: 50%;
+    float: left;
+}
+.add-des h1{
+    color: black;
+    padding: 25px 0;
+}
+.add-des p{
+    padding: 0 250px 0 0;
+    text-align: justify;
+    line-height: 1.5;
+}
+.checkbox{
+    margin: 15px;
+}
+.label{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* APP PART */
+#app{
+    width: 100%;
+    float: left;
+    background: url(../img/bg-app.png) no-repeat center;
+    background-size: cover;
+}
+.app{
+    width: 100%;
+    float: left;
+    padding: 100px ;
+}
+.app-img{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.app-des{
+    width: 50%;
+    float: left;
+    padding: 150px 100px 0 0;
+}
+.app-des h1{
+    color: black;
+}
+.app-des p{
+    color: white;
+    margin: 40px 0;
+    line-height: 2;
+    text-align: justify;
+}
+.app-des img{
+    padding: 0 20px 0 0
+}
+/* info part */
+#info{
+    width: 100%;
+    float: left;
+}
+.info{
+
+}
+.pink-btn{
+    width: 350px;
+    padding: 20px;
+    background: #fb6274;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 35%;
+    top: -30px;
+}
+.pink-btn h4{
+    font-weight: bold;
+    color: white;
+}
+.pink-btn a{
+    text-decoration: none;
+}
+.info-table{
+    width: 100%;
+    float: left;
+    padding: 50px 100px 0 300px;
+}
+.info-list{
+    width: 25%;
+    float: left;
+}
+.info-list ul li{
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 14px;
+}
+.info-list ul li h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.contact h1{
+    color: black;
+    margin: 30px 0;
+}
+.contact p{
+    margin-bottom: 50px;
+}
+.contact input{
+    width: 500px;
+    padding: 15px 10px;
+    border: none;
+    font-size: 22px;
+    background: #f6f7fb;
+}
+.contact button{
+    background: #35b8f6;
+    color: black;
+    padding: 20px 0;
+    margin-left:20px ;
+}
+.contact input::placeholder{
+    text-align: center;
+    font-size: 17px;
+}
+/* footer part */
+#footer{
+    width: 100%;
+    float: left;
+    background: #233148;
+}
+.footer{
+    width: 100%;
+    float: left;
+    padding: 35px;
+}
+.copyright-part{
+    width: 30%;
+    float: left;
+}
+.copyright-part p{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+.icon-part{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.icon-part img{
+    padding: 0 20px;
+
+}
